@@ -18,7 +18,6 @@ public class Task9
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter integer number, please: ");
         int number = scan.nextInt();
-        int circles = 0;
         int quantity = 0;
         int tmp1 = number;
 
@@ -26,12 +25,6 @@ public class Task9
         while (tmp1 > 0)
         {
             tmp1 = tmp1 / 10;
-            ++circles;
-        }
-
-        // We divide entrance number to numbers and safe it in temporary variable
-        for (int i = 0; i < circles; i++)
-        {
             int tmp2 = number % 10;
             number = (number - tmp2) / 10;
 
