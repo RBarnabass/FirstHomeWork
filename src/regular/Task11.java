@@ -1,4 +1,4 @@
-package RegularTasks;
+package regular;
 
 /*
 11. Вирахувати факторіал числа, яке вводить користувач.

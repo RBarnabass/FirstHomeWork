@@ -1,4 +1,4 @@
-package RegularTasks;
+package regular;
 
 import java.util.Scanner;
 
