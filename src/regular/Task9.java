@@ -18,10 +18,9 @@ public class Task9 {
         System.out.print("Enter integer number, please: ");
         int number = scan.nextInt();
         int quantity = 0;
-        int tmp1 = number;
 
-        while (tmp1 > 0) {
-            tmp1 = tmp1 / 10;
+        while (number > 0) {
+
             int tmp2 = number % 10;
             number = (number - tmp2) / 10;
 

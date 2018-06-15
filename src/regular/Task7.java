@@ -12,8 +12,8 @@ public class Task7 {
 
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter two integer numbers, please: ");
-        int num1 = scan.nextInt();
-        int num2 = scan.nextInt();
+        double num1 = scan.nextDouble();
+        double num2 = scan.nextDouble();
         boolean isDivisable = false;
 
         if (num1 % num2 == 0) {

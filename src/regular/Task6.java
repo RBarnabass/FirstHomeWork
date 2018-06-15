@@ -14,10 +14,11 @@ public class Task6
         System.out.print("Enter two integer numbers, please: ");
         int num1 = scan.nextInt();
         int num2 = scan.nextInt();
+        int sum = num1 + num2;
 
-        if (num1 + num2 <= 19 && num1 + num2 >= 11)
+        if (sum <= 19 && sum >= 11)
         {
-            System.out.println("The sum of your number is: " + num1 + num2);
+            System.out.println("The sum of your number is: " + sum);
         }
         else
         {
