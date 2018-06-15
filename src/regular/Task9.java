@@ -11,25 +11,21 @@ import java.util.Scanner;
         305    - 1
 */
 
-public class Task9
-{
-    public static void main(String[] args)
-    {
+public class Task9 {
+    public static void main(String[] args) {
+
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter integer number, please: ");
         int number = scan.nextInt();
         int quantity = 0;
         int tmp1 = number;
 
-        // We count how much numbers is entrance number
-        while (tmp1 > 0)
-        {
+        while (tmp1 > 0) {
             tmp1 = tmp1 / 10;
             int tmp2 = number % 10;
             number = (number - tmp2) / 10;
 
-            if (tmp2 == 5) // We count how much "5's" was in our temporary variable
-            {
+            if (tmp2 == 5) {
                 quantity++;
             }
         }
