@@ -2,6 +2,10 @@ package RegularTasks;
 
 import java.util.Scanner;
 
+/*
+6. Вводимо два числа. Виводимо їх додаток, якшо він в діапазоні від 11 до 19.
+*/
+
 public class Task6
 {
     public static void main(String[] args)

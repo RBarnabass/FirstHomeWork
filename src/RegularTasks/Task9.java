@@ -2,6 +2,15 @@ package RegularTasks;
 
 import java.util.Scanner;
 
+/*
+9. Порахувати скільки разів зустрічається 5 в заданому числі, яке вводить користувач
+
+        435  -   1
+        505  -   2
+        555  -   3
+        305    - 1
+*/
+
 public class Task9
 {
     public static void main(String[] args)

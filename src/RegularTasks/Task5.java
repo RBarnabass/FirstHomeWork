@@ -2,6 +2,11 @@ package RegularTasks;
 
 import java.util.Scanner;
 
+/*
+5. Вводимо 2 числа. Якшо перше число більше другого, то виводимо на консоль різницю цих чисел.
+        В іншому випадку то виводимо добуток
+*/
+
 public class Task5
 {
     public static void main(String[] args)

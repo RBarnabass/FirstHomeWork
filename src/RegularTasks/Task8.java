@@ -2,6 +2,15 @@ package RegularTasks;
 
 import java.util.Scanner;
 
+/*
+8. Вводимо два числа. Порівняти останні цифри цих чисел (користуємося оператором %)
+
+        124    4    -   true
+        1456   567  -   false
+        1      2    -   false
+        18     98   -   true
+*/
+
 public class Task8
 {
     public static void main(String[] args)

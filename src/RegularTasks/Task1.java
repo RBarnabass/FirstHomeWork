@@ -2,6 +2,11 @@ package RegularTasks;
 
 import java.util.Scanner;
 
+/*
+1. Користувач вводить цілочисельний тип з консолі (час від 0 до 24)
+        Якшо час від 9 до 18 - вивлдимо на консль "I am at work", в іншому випадку "I rest"
+*/
+
 public class Task1
 {
     public static void main(String[] args)

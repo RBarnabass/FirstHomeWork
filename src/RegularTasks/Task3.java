@@ -2,6 +2,10 @@ package RegularTasks;
 
 import java.util.Scanner;
 
+/*
+3. Користувач вводить число. Вивести на екран його подвоєне значення, якшо число ділиться на 7 без залишку.
+*/
+
 public class Task3
 {
     public static void main(String[] args)

@@ -2,6 +2,10 @@ package RegularTasks;
 
 import java.util.Scanner;
 
+/*
+2. Користувач вводить три числа з консолі - потрібно вивести на консоль найбільше і найменше.
+*/
+
 public class Task2A
 {
     public static void main(String[] args)
